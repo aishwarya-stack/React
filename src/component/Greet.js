@@ -4,8 +4,8 @@ import React from 'react'
 // {
 //     return <h1>Hello Aishwarya</h1>
 // }
-const Greet = (Props) =>
+const Greet = (name,heroName) =>
 { 
-return <h1> hello {Props.name}  aka {Props.heroName} </h1>
+return <h1> hello {name}  aka {heroName} </h1>
 }
 export default Greet
