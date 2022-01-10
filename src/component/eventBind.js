@@ -8,7 +8,7 @@ class eventBind extends Component{
         this.state({
          Message:'vidya'
         })
-        this.changeMessage=this.changeMessage.bind(this)
+       // this.changeMessage=this.changeMessage.bind(this)
     }
     changeMessage =()=>
     {

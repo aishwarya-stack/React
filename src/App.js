@@ -8,11 +8,14 @@ import Hello from './component/Hello';
 import Example from './component/Example';
 import Message from './component/Message';
 import Change from './component/Change';
+import UserGreet from './component/UserGreet';
+import NameList from './component/NameList';
 class App extends Component{
   render(){
     return(
       <div className='App'>
-       <Greet name="Bruce" heroName="superman"/>
+        <NameList/>
+       {/* <Greet name="Bruce" heroName="superman"/>
        <Greet name="Diana" heroName="wonderwomen"/>
        <Student />
        <Welcome name="Bruce" heroName="superman"/>
@@ -20,7 +23,8 @@ class App extends Component{
        <Hello/>
        <Message/>
        <Change/>
-       <Example name="Vidya"/>
+       <Example name="Vidya"/> */}
+       
       </div>
     );
   }
