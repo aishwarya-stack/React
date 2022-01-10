@@ -24,7 +24,7 @@ function NameList()
         },
     ]
     const PersonList=persons.map(person=>(
-       <Person person={person}/>)
+       <Person key={person.name} person={person}/>)
         )
     return<div> {PersonList}</div>
 }
